@@ -5,92 +5,96 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Portfolio</title>
 </head>
 
-<body style="background-color: #201A31; color: white;">
-  <header style="width: 100%; background-color: #121214; overflow: hidden; position: fixed; top: 0;">
-    <a id="logo" href="index.html">
-      <img class="logo" src="images/logo-header.png" alt="logo" style="width: 80px;">
-    </a>
-    <nav>
-      <a href="#HOME">Home</a>
-      <a href="#PROJECTS">Projects</a>
-      <a href="site-plan/site-plan.html">Site Plan</a>
-      <a href="#ABOUT">About</a>
-      <a href="#CONTACT">Contac</a>
-      <button>Downdload CV</button>
-
-    </nav>
-  </header>
-  <main>
-    <div id="HOME">
-      <h3>Home</h3>
-      <h1>Hi my name is Michelangelo</h1>
-      <h2>I am a Full-Stack Developer</h2>
-      <img src="images/me.jpg" style="width: 200px;">
-      <button>My projects</button>
-    </div>
-    <div id="PROJECTS">
-      <h3>Projects</h3>
-      <div style="display: flex;">
-        <div>
-          <img src="" alt="" style="width: 100px; height: 100px; background-color: grey">
-          <h4>To do List</h4>
+<body>
+  <div class="content">
+    <header>
+      <a id="logo" href="index.html">
+        <img class="logo" src="images/logo-header.png" alt="logo" style="width: 80px;">
+      </a>
+      <nav>
+        <a class="nav-link" href="#HOME">Home</a>
+        <a class="nav-link" href="#PROJECTS">Projects</a>
+        <!--<a class="nav-link" href="site-plan/site-plan.html">Site Plan</a>-->
+        <a class="nav-link" href="#ABOUT">About</a>
+        <a class="nav-link" href="#CONTACT">Contact</a>
+      </nav>
+      <button class="btn-cv">Downdload CV</button>
+    </header>
+    <main>
+      <div id="HOME">
+        <div class="text-home">
+          <h1>Hi,</h1>
+          <h1>I ' am Michelangelo</h1>
+          <h1>Full-Stack Developer</h1>
+          <button class="btn-project">Projects</button>
         </div>
-        <div>
-          <img src="" alt="" style="width: 100px; height: 100px; background-color: grey">
-          <h4>Tic Tac Toe</h4>
+        <img class="img-me" src="images/me.png">
+      </div>
+      <div id="PROJECTS">
+        <h3>Projects</h3>
+        <div style="display: flex;">
+          <div>
+            <img src="" alt="" style="width: 100px; height: 100px; background-color: grey">
+            <h4>To do List</h4>
+          </div>
+          <div>
+            <img src="" alt="" style="width: 100px; height: 100px; background-color: grey">
+            <h4>Tic Tac Toe</h4>
+          </div>
+          <div>
+            <img src="" alt="" style="width: 100px; height: 100px; background-color: grey">
+            <h4>Calculator</h4>
+          </div>
+          <div>
+            <img src="" alt="" style="width: 100px; height: 100px; background-color: grey">
+            <h4>Email Validation</h4>
+          </div>
         </div>
+        <img src="images/Web Developer_Monochromatic 1.svg" alt="">
+      </div>
+      <div id="ABOUT">
+        <h3>About</h3>
         <div>
-          <img src="" alt="" style="width: 100px; height: 100px; background-color: grey">
-          <h4>Calculator</h4>
+          <p>Hi, my name is Michelangelo, I'm a student of applied technology at BYU-Idaho and I work as a front-end developer. I love photography, sports and online games.</p>
+          <img src="images/Cat astronaut-rafiki 1.svg" alt="">
         </div>
+        <h3>Pictures</h3>
         <div>
-          <img src="" alt="" style="width: 100px; height: 100px; background-color: grey">
-          <h4>Email Validation</h4>
+          <img src="images/248152289_578033099981030_1524513020423893980_n.jpg" alt="" style="width: 350px;">
+          <img src="images/244674817_193292426277633_280499921537734698_n.jpg" alt="" style="width: 350px;">
+          <img src="images/242026815_239564277973610_4356853353622224205_n.jpg" alt="" style="width: 350px;">
         </div>
       </div>
-      <img src="images/Web Developer_Monochromatic 1.svg" alt="">
-    </div>
-    <div id="ABOUT">
-      <h3>About</h3>
+      <div id="CONTACT">
+        <h3>Contact</h3>
+        <div>
+          <h4>Send me a message:</h4>
+          <div>
+            <img src="images/facebook.png" style="width: 50px;">
+            <img src="images/github.png" style="width: 50px;">
+            <img src="images/gmail.png" style="width: 50px;">
+            <img src="images/instagram.png" style="width: 50px;">
+            <img src="images/linkedin.png" style="width: 50px;">
+          </div>
+          <img src="images/logo.png" style="width: 400px;">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>® all rights reserved</p>
+      <h4>Contact:</h4>
       <div>
-        <p>Hi, my name is Michelangelo, I'm a student of applied technology at BYU-Idaho and I work as a front-end developer. I love photography, sports and online games.</p>
-        <img src="images/Cat astronaut-rafiki 1.svg" alt="">
+        <img src="images/instagram.png" style="width: 30px;">
+        <img src="images/linkedin.png" style="width: 30px;">
+        <img src="images/facebook.png" style="width: 30px;">
+        <img src="images/github.png" style="width: 30px;">
       </div>
-      <h3>Pictures</h3>
-      <div>
-        <img src="images/248152289_578033099981030_1524513020423893980_n.jpg" alt="" style="width: 350px;">
-        <img src="images/244674817_193292426277633_280499921537734698_n.jpg" alt="" style="width: 350px;">
-        <img src="images/242026815_239564277973610_4356853353622224205_n.jpg" alt="" style="width: 350px;">
-      </div>
-    </div>
-    <div id="CONTACT">
-      <h3>Contact</h3>
-      <div>
-        <h4>Send me a message:</h4>
-        <div>
-          <img src="images/facebook.png" style="width: 50px;">
-          <img src="images/github.png" style="width: 50px;">
-          <img src="images/gmail.png" style="width: 50px;">
-          <img src="images/instagram.png" style="width: 50px;">
-          <img src="images/linkedin.png" style="width: 50px;">
-        </div>
-        <img src="images/logo.png" style="width: 400px;">
-      </div>
-    </div>
-  </main>
-  <footer>
-    <p>® all rights reserved</p>
-    <h4>Contact:</h4>
-    <div>
-      <img src="images/instagram.png" style="width: 30px;">
-      <img src="images/linkedin.png" style="width: 30px;">
-      <img src="images/facebook.png" style="width: 30px;">
-      <img src="images/github.png" style="width: 30px;">
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
 
 </html>
