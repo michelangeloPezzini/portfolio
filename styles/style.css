@@ -41,9 +41,10 @@ header .nav-link:hover {
 .btn-cv {
   padding: 5px 10px;
   border-radius: 8px;
-  color: white;
+  color: #04d361;
   font-size: 15px;
-  background-color: #04d361;
+  border: 2px solid #04d361;
+  background-color: transparent;
 }
 
 .btn-cv:hover {
@@ -58,12 +59,12 @@ header .nav-link:hover {
 #HOME {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 180px 1fr 50px 250px;
+  grid-template-rows: 180px 200px 130px 80px 80px 80px 80px;
 }
 .text-home {
   color: #8257e6;
   grid-column: 2/7;
-  grid-row: 2/3;
+  grid-row: 2/4;
 }
 
 .text-home h1 {
@@ -80,12 +81,18 @@ header .nav-link:hover {
 }
 
 .btn-project {
-  margin-top: 50px;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border-radius: 8px;
-  color: white;
+  color: #04d361;
   font-size: 15px;
-  background-color: #04d361;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid #04d361;
+}
+
+.btn-grid {
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
 .btn-project:hover {
@@ -102,7 +109,7 @@ header .nav-link:hover {
 
 .purpose {
   grid-column: 2/10;
-  grid-row: 4/5;
+  grid-row: 5/6;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
@@ -162,7 +169,7 @@ footer img {
 #PROJECTS {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 160px 80px 80px 80px 80px 80px 80px 40px 80px 80px;
+  grid-template-rows: 160px 80px 80px 80px 80px 100px 80px 40px 80px 80px;
 }
 
 .projects-title {
@@ -174,6 +181,7 @@ footer img {
 
 .title-item {
   margin-bottom: 15px;
+  font-weight: 200;
 }
 
 .to-do-list {
@@ -183,7 +191,8 @@ footer img {
 
 .to-do-list-text {
   margin-top: 35px;
-  grid-column: 4/7;
+  margin-left: 30px;
+  grid-column: 3/7;
   grid-row: 3/3;
 }
 
@@ -200,7 +209,8 @@ footer img {
 
 .tic-tac-toe-text {
   margin-top: 35px;
-  grid-column: 4/7;
+  margin-left: 30px;
+  grid-column: 3/7;
   grid-row: 5/7;
 }
 
@@ -240,57 +250,59 @@ footer img {
 
 /*Contact Start*/
 
-#CONTACT{
+#CONTACT {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 160px 60px 80px 80px 80px 80px 80px;
-
 }
 
-.contact-title{
+.contact-title {
   grid-column: 2/3;
   grid-row: 2/3;
   color: #8257e6;
   font-size: 25px;
 }
 
-.contact-text{
+.contact-text {
   grid-column: 2/8;
   grid-row: 3/5;
 }
 
-.contact-text h4{
+.contact-text h4 {
   font-weight: 100;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
 }
 
-.midia-icons{
+.midia-icons {
   margin-top: 30px;
   display: flex;
   grid-column: 2/10;
   grid-row: 4/5;
   gap: 220px;
 }
-.midia-icons img{
+.midia-icons img {
   width: 35px;
 }
 
-.icon{
+.icon {
   display: flex;
   align-content: center;
   align-items: center;
   margin-bottom: 35px;
 }
 
-.icon p{
+.icon p {
   margin-left: 20px;
 }
 
-.contact-logo{
+.icon img:hover {
+  transform: scale(1.1);
+}
+
+.contact-logo {
   grid-column: 9/12;
   width: 350px;
   grid-row: 2/5;
-
 }
 /*Contact end*/
