@@ -6,7 +6,11 @@
 }
 
 body {
-  background-color: #201a31;
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,16,99,1) 42%, rgba(67,33,134,1) 80%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,16,99,1) 42%, rgba(67,33,134,1) 80%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,16,99,1) 42%, rgba(67,33,134,1) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#432186",GradientType=1);
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -59,7 +63,7 @@ header .nav-link:hover {
 #HOME {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 180px 200px 130px 80px 80px 80px 80px;
+  grid-template-rows: 180px 200px 130px 80px 80px 80px 80px 80px 80px 80px 80px;
 }
 .text-home {
   color: #8257e6;
@@ -169,7 +173,7 @@ footer img {
 #PROJECTS {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 160px 80px 80px 80px 80px 100px 80px 40px 80px 80px;
+  grid-template-rows: 160px 80px 80px 80px 80px 100px 80px;
 }
 
 .projects-title {
@@ -184,9 +188,20 @@ footer img {
   font-weight: 200;
 }
 
+
 .to-do-list {
   grid-column: 2/3;
   grid-row: 3/3;
+}
+
+.to-do-list img{
+  width: 100px; 
+  height: 100px; 
+  background-color: grey"
+}
+
+.to-do-list a{
+  cursor: pointer;
 }
 
 .to-do-list-text {
@@ -207,6 +222,12 @@ footer img {
   grid-row: 5/5;
 }
 
+.tic-tac-toe img{
+  width: 100px; 
+  height: 100px; 
+  background-color: grey"
+}
+
 .tic-tac-toe-text {
   margin-top: 35px;
   margin-left: 30px;
@@ -222,7 +243,7 @@ footer img {
 
 .Technologies {
   grid-column: 2/9;
-  grid-row: 7/8;
+  grid-row: 8/10;
 }
 
 .Technologies h3 {
@@ -239,7 +260,7 @@ footer img {
 
 .icons-tecnologies {
   grid-column: 2/9;
-  grid-row: 9/10;
+  grid-row: 10/12;
 }
 
 .icons-tecnologies img {
