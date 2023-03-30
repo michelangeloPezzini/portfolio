@@ -89,13 +89,14 @@ header .nav-link:hover {
   border-radius: 8px;
   color: #04d361;
   font-size: 15px;
+  transition: .5s;
   text-decoration: none;
   background-color: transparent;
   border: 2px solid #04d361;
 }
 
 .btn-grid {
-  grid-column: 2/3;
+  grid-column: 2/6;
   grid-row: 4/5;
 }
 
@@ -173,7 +174,7 @@ footer img {
 #PROJECTS {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 160px 80px 80px 80px 80px 100px 80px;
+  grid-template-rows: 160px 80px 80px 80px 80px 100px 80px 50px 50px 50px 50px;
 }
 
 .projects-title {
@@ -264,7 +265,7 @@ footer img {
 }
 
 .icons-tecnologies img {
-  width: 50px;
+  width: 40px;
   margin-right: 20px;
 }
 /*Project end*/
